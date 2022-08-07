@@ -1,0 +1,119 @@
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: linear-gradient(to right, blue, green);
+}
+.calculator {
+  background-color: rgba(255, 255, 255, .75);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.screen {
+  width: 300px;
+  height: 50px;
+  margin: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(12, 12, 12);
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.keybord {
+    width: 300px;
+    height: 340px;
+    display: grid;
+    justify-items: center;
+    margin-bottom: 10px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+.previous {
+  margin-left: 10px;
+}
+.current {
+  margin-left: 5px;
+}
+.number,
+.operate {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 20px;
+}  
+.buttonEq {
+  width: 110px;
+  height: 50px;
+  border-radius: 15px;
+  grid-area: 5/3/6/5;
+  font-size: 20px;
+}
+.buttonC {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  grid-area: 1/1/1/2;
+  font-size: 20px;
+}
+.buttonDel{
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  grid-area: 1/2/2/3;
+  font-size: 20px;
+}
+.button0 {
+  grid-area: 5/2/6/3;
+}
+.button1 {
+  grid-area: 2/1/3/2;
+}
+.button2 {
+  grid-area: 2/2/3/3;
+}
+.button3 {
+  grid-area: 2/3/3/4;
+}
+.button4 {
+  grid-area: 3/1/4/2;
+}
+.button5 {
+  grid-area: 3/2/4/2;
+}
+.button6 {
+  grid-area: 3/3/4/4;
+}
+.button7 {
+  grid-area: 4/1/5/2;
+}
+.button8 {
+  grid-area: 4/2/5/3;
+}
+.button9 {
+  grid-area: 4/3/5/4;
+}
+.buttonDot {
+  grid-area: 5/1/6/2;
+}
+.buttonx {
+  grid-area: 3/4/4/5;
+}
+.buttonPercent {
+  grid-area: 1/4/2/4;
+}
+.button÷ {
+  grid-area: 4/4/5/5;
+}
+.button- {
+  grid-area: 2/4/3/5;
+}
+  
+  
+  
+  
+  
